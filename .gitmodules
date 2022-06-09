@@ -4,6 +4,3 @@
 [submodule "hm-pktfwd-disco"]
 	path = hm-pktfwd-disco
 	url = https://github.com/gradoj/hm-pktfwd-disco.git
-[submodule "chirpstack-packet-multiplexer"]
-	path = chirpstack-packet-multiplexer
-	url = https://github.com/brocaar/chirpstack-packet-multiplexer.git
