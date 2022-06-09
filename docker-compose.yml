@@ -1,6 +1,30 @@
 version: '2'
 
 services:
+  disco:
+    image: discoclient:latest
+    container_name: disco
+    build: discoclient
+    expose:
+      - 1681/udp
+    ports:
+      - "1681:1681/udp"
+    volumes:
+      - disco-config:/disco.json
+    restart: always
+
+
+  mux:
+    image: chirpstack-packet-multiplexer:latest
+    container_name: mux
+    build:
+      context: chirpstack-packet-multiplexer
+    ports:
+      - 1700:1700/udp
+    entrypoint: /root/build/chirpstack-packet-multiplexer
+    volumes:
+      - mux-config:/etc/chirpstack-packet-multiplexer/chirpstack-packet-multiplexer.toml
+    restart: always
 
   gateway-config:
     image: nebraltd/hm-config:b24dce9
