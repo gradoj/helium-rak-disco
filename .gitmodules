@@ -1,6 +1,0 @@
-[submodule "discoclient"]
-	path = discoclient
-	url = https://github.com/gradoj/discoclient.git
-[submodule "chirpstack-packet-multiplexer"]
-	path = chirpstack-packet-multiplexer
-	url = https://github.com/brocaar/chirpstack-packet-multiplexer.git
