@@ -9,9 +9,8 @@ post-provisioning: >-
   
   Once your device joins the fleet you'll need to allow some time for it to download the application and start forwarding packets to the Helium Network.
   
-  For detailed instructions on how to use Nebra Helium RAK check out [our GitHub repo](https://github.com/NebraLtd/helium-rak).
+  Visit https://dash.discomode.io/ to send disco packets [GitHub repo](https://github.com/gradoj/helium-rak-disco).
   
-  For support you can [open an issue](https://github.com/NebraLtd/helium-rak/issues) on the repo or reach out to us via one of the methods listed [on our support page](https://helium.nebra.com/support).
 assets:
   repository:
     type: blob.asset
