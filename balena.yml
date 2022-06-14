@@ -21,7 +21,7 @@ assets:
     type: blob.asset
     data:
       url: >-
-        https://github.com/gradoj/discoclient/blob/main/screenshots/logo.png
+        https://raw.githubusercontent.com/gradoj/discoclient/main/screenshots/logo.png
 data:
   applicationEnvironmentVariables:
     - VARIANT: DIY-RAK2287
