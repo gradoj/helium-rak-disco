@@ -1,5 +1,6 @@
 name: rak-disco
 type: sw.application
+joinable: false
 description: >-
   Manage your RAK v1.5, v2 or MNTD Helium Miner remotely using Nebra and balenaCloud.
 
@@ -20,9 +21,11 @@ assets:
     type: blob.asset
     data:
       url: >-
-        
+        https://github.com/gradoj/discoclient/blob/main/screenshots/logo.png
 data:
+  applicationEnvironmentVariables:
+    - VARIANT: DIY-RAK2287
   defaultDeviceType: raspberrypi4-64
   supportedDeviceTypes:
     - raspberrypi4-64
-version: 0.0.1
+version: 0.0.2
